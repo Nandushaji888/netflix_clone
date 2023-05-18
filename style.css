@@ -1,0 +1,124 @@
+.main-body{
+padding-bottom: 50px;
+background-color: hsl(223, 100%, 6%);
+margin-left: 8vh;
+margin-right: 8vh;
+}
+@media(max-width:1200px){
+  .main-body{
+    margin-left: 2vh;
+    margin-right: 2vh;
+  }
+}
+.bimg{
+  background-size: cover;
+  background-image: linear-gradient(to right,rgba(80, 71, 71, 0.7),rgba(172, 37, 37, 0.3)), url(assets/header-image.webp);
+  height:93vh;
+  color: rgb(255, 255, 255);
+  border-radius: 25px;
+  position: relative;
+}
+.netflix-logo{
+  width: 150px;
+}
+.contents{
+  margin-left: 15vh;
+  top: 15vh;
+}
+@media (max-width:950px){
+  .netflix-logo{
+    width:90px;
+  }
+  .contents{
+    top:1vh;
+    margin-left: 4vh;
+  }
+  .bimg{
+    height: 65vh;
+  }
+}
+
+.main-head{
+ font-weight: bolder;
+ font-size: 4rem;
+}
+@media(max-width:1200px){
+   .main-head{
+    font-size: 3rem;
+    font-weight: bolder;
+   }
+}
+@media(max-width:650px){
+  .main-head{
+    font-size:2rem;
+    font-weight:bolder;
+  }
+}
+@media(max-width:350px){
+  .main-head{
+    font-size:2rem;
+    font-weight:bold;
+  }
+ 
+}
+.place-first{
+  width: 60vh;
+  min-width: 150px;
+}
+
+@media (max-width:950px){
+
+} 
+
+
+
+@media (max-width:650px){
+  .contents{
+    top:1vh;
+    margin-left: 4vh;
+  }
+  .bimg{
+    height: 65vh;
+  }
+} 
+@media(max-width:385px){
+  .bimg{
+    height: 90vh;
+    padding: 0;
+  }
+  .contents{
+    top:1vh;
+    margin-left: 3vh;
+
+}}
+
+
+.section1{
+  background-color:hsl(223, 100%, 6%); 
+  background-image: linear-gradient(to top left,rgba(177, 75, 163, 0.2),hsl(223, 100%, 6%));
+  
+}
+.main-body hr{
+  color: white;
+}
+.accordion{
+  margin-top: 2vh;
+  margin-left:15vh ;
+  margin-right:15vh ;
+  
+}
+@media(max-width:768px){
+.accordion{
+  margin-left: 5vh;
+  margin-right: 5vh;
+}
+}
+.place-h{
+  min-width: 140px;
+  margin-right: 2vh;
+}
+
+
+
+
+
